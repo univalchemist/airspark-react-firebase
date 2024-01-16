@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fdfdfd !important;
+  overflow-y: overlay;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
+code {
+  font-family: "Montserrat", sans-serif;
+}
+
+.hoverable:hover {
+  cursor: pointer;
+  background-color: #e1e2e6;
+}
+
+.geosuggest__suggests--hidden {
+  max-height: 0 !important;
+  overflow: hidden !important;
+  border-width: 0 !important;
+}
+.geosuggest__item--active {
+  color: #fff !important;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: #f35893 !important;
+}
